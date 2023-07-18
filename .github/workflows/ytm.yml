@@ -32,6 +32,60 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/channel/UCU6kl_-xHJ0KKKk2CgVixlA/live)
         EOL
+    - name: halabel3eyall.m3u8
+      run: |
+        touch ./halabel3eyal.m3u8
+        sudo cat >./Movies/halabel3eyal.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/channel/UCC_xW57yJDW-SiMwa7WzJxA/live)
+        EOL
+    - name: jeddahradio.m3u8
+      run: |
+        touch ./jeddahradio.m3u8
+        sudo cat >./Radio/jeddahradio.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/channel/UC2012dTs3N2LrkOeI_QvswQ/live)
+        EOL
+    - name: 24-sports.m3u8
+      run: |
+        touch ./24-sports.m3u8
+        sudo cat >./Sport/24-sports.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/channel/UCGnTP2NwS6ZJwmXBTsS2w-w/live)
+        EOL
+    - name: 24-alnaharreyada.m3u8
+      run: |
+        touch ./alnaharreyada.m3u8
+        sudo cat >./Sport/alnaharreyada.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/channel/UC4UNlrOOnMe7FItF8SIJk2g/live)
+        EOL
+    - name: alnahar.m3u8
+      run: |
+        touch ./alnahar.m3u8
+        sudo cat >./General/alnahar.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/channel/UC4UNlrOOnMe7FItF8SIJk2g/live)
+        EOL
+    - name: 24-sports.m3u8
+      run: |
+        touch ./ArabicFairyTales.m3u8
+        sudo cat >./Kids/ArabicFairyTales.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/channel/UCBqfiWktGq5Gy-B5fIaUdzw/live)
+        EOL
     - name: alireda.m3u8
       run: |
         touch ./alireda.m3u8
