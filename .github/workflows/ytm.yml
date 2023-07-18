@@ -26,11 +26,20 @@ jobs:
     - name: Get PeppaPig.m3u8
       run: |
         touch ./PeppaPig.m3u8
-        sudo cat >./PeppaPig.m3u8 <<EOL
+        sudo cat >./kids/PeppaPig.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@PeppaPigChineseOfficial/live)
+        EOL
+    - name: Osratouna.m3u8
+      run: |
+        touch ./Osratouna.m3u8
+        sudo cat >./kids/Osratouna.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@Osratouna/live)
         EOL
     - name: Get LionFamily.m3u8
       run: |
@@ -39,7 +48,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@VexTrexKidsCartoon/live)
+        $(yt-dlp --print urls https://www.youtube.com/channel/UCE_URvMQZgvPqd8rzlFF58A/live)
         EOL
     - name: Get LionFamily2.m3u8
       run: |
@@ -53,7 +62,7 @@ jobs:
     - name: Get MashaandtheBear.m3u8
       run: |
         touch ./MashaandtheBear.m3u8
-        sudo cat >./MashaandtheBear.m3u8 <<EOL
+        sudo cat >./kids/MashaandtheBear.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
@@ -62,7 +71,7 @@ jobs:
     - name: Get MashaandtheBear2.m3u8
       run: |
         touch ./MashaandtheBear2.m3u8
-        sudo cat >./MashaandtheBear2.m3u8 <<EOL
+        sudo cat >./kids/MashaandtheBear2.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
@@ -71,16 +80,16 @@ jobs:
     - name: Get Wolfoosstories.m3u8
       run: |
         touch ./Wolfoosstories.m3u8
-        sudo cat >./Wolfoosstories.m3u8 <<EOL
+        sudo cat >./kids/Wolfoosstories.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@WolfoosStories/live)
+        $(yt-dlp --print urls https://www.youtube.com/@wolfooseries-officialchannel/live)
         EOL
     - name: Get HamsterEscape.m3u8
       run: |
         touch ./HamsterEscape.m3u8
-        sudo cat >./HamsterEscape.m3u8 <<EOL
+        sudo cat >./kids/HamsterEscape.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
@@ -89,7 +98,7 @@ jobs:
     - name: Get PeaPeaKorea.m3u8
       run: |
         touch ./PeaPeaKorea.m3u8
-        sudo cat >./PeaPeaKorea.m3u8 <<EOL
+        sudo cat >./kids/PeaPeaKorea.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
@@ -98,16 +107,16 @@ jobs:
     - name: Get OddbodsFRIENDS.m3u8
       run: |
         touch ./OddbodsFRIENDS.m3u8
-        sudo cat >./OddbodsFRIENDS.m3u8 <<EOL
+        sudo cat >./kids/OddbodsFRIENDS.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@Oddbods/live)
+        $(yt-dlp --print urls https://www.youtube.com/@Oddbods/live/1)
         EOL
     - name: Get CANDYCRUSH.m3u8
       run: |
         touch ./CANDYCRUSH.m3u8
-        sudo cat >./CANDYCRUSH.m3u8 <<EOL
+        sudo cat >./kids/CANDYCRUSH.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
@@ -116,7 +125,7 @@ jobs:
     - name: Get HOGI.m3u8
       run: |
         touch ./HOGI.m3u8
-        sudo cat >./HOGI.m3u8 <<EOL
+        sudo cat >./kids/HOGI.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
@@ -125,7 +134,7 @@ jobs:
     - name: Get AntiksOfficial.m3u8
       run: |
         touch ./AntiksOfficial.m3u8
-        sudo cat >./AntiksOfficial.m3u8 <<EOL
+        sudo cat >./kids/AntiksOfficial.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
@@ -134,7 +143,7 @@ jobs:
     - name: Get LocoNutsCartoonVideos.m3u8
       run: |
         touch ./LocoNutsCartoonVideos.m3u8
-        sudo cat >./LocoNutsCartoonVideos.m3u8 <<EOL
+        sudo cat >./kids/LocoNutsCartoonVideos.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
@@ -143,7 +152,7 @@ jobs:
     - name: Get GetMovies.m3u8
       run: |
         touch ./GetMovies.m3u8
-        sudo cat >./GetMovies.m3u8 <<EOL
+        sudo cat >./kids/GetMovies.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
@@ -152,7 +161,7 @@ jobs:
     - name: Get BabySharkOfficial.m3u8
       run: |
         touch ./BabySharkOfficial.m3u8
-        sudo cat >./BabySharkOfficial.m3u8 <<EOL
+        sudo cat >./kids/BabySharkOfficial.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=7680000,AVERAGE-BANDWIDTH=7560423
@@ -161,7 +170,7 @@ jobs:
     - name: Get TalkingTomHeroes.m3u8
       run: |
         touch ./TalkingTomHeroes.m3u8
-        sudo cat >./TalkingTomHeroes.m3u8 <<EOL
+        sudo cat >./kids/TalkingTomHeroes.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
@@ -170,7 +179,7 @@ jobs:
     - name: Get BoobaCartoon.m3u8
       run: |
         touch ./BoobaCartoon.m3u8
-        sudo cat >./BoobaCartoon.m3u8 <<EOL
+        sudo cat >./kids/BoobaCartoon.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
@@ -179,7 +188,7 @@ jobs:
     - name: Get OkoLeleOfficialchannel.m3u8
       run: |
         touch ./OkoLeleOfficialchannel.m3u8
-        sudo cat >./OkoLeleOfficialchannel.m3u8 <<EOL
+        sudo cat >./kids/OkoLeleOfficialchannel.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
