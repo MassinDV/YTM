@@ -10,39 +10,6 @@ on:
   workflow_dispatch:
 
 jobs:
-windows = False
-if 'win' in sys.platform:
-    windows = True
-
-def grab(url):
-    response = s.get(url, timeout=15).text
-    if '.m3u8' not in response:
-        response = requests.get(url).text
-        if '.m3u8' not in response:
-            if windows:
-                print('https://raw.githubusercontent.com/MassinDV/videos/main/offlintv.m3u8')
-                return
-            #os.system(f'wget {url} -O temp.txt')
-            os.system(f'curl "{url}" > temp.txt')
-            response = ''.join(open('temp.txt').readlines())
-            if '.m3u8' not in response:
-                print('https://raw.githubusercontent.com/MassinDV/videos/main/offlintv.m3u8')
-                return
-    end = response.find('.m3u8') + 5
-    tuner = 100
-    while True:
-        if 'https://' in response[end-tuner : end]:
-            link = response[end-tuner : end]
-            start = link.find('https://')
-            end = link.find('.m3u8') + 5
-            break
-        else:
-            tuner += 5
-    streams = s.get(link[start:end]).text.split('#EXT')
-    hd = streams[-1].strip()
-    st = hd.find('http')
-    print(hd[st:].strip())
-    #print(f"{link[start : end]}")
   build:
     runs-on: ubuntu-latest
     steps:
@@ -56,6 +23,33 @@ def grab(url):
         sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
         sudo chmod a+rx /usr/local/bin/yt-dlp
 
+    - name: Flash Back.m3u8
+      run: |
+        touch ./flashback.m3u8
+        sudo cat >./Movies/flashback.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/channel/UCU6kl_-xHJ0KKKk2CgVixlA/live)
+        EOL
+    - name: alireda.m3u8
+      run: |
+        touch ./alireda.m3u8
+        sudo cat >./Movies/alireda.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/channel/UCHar8V1vqBhQ8AhRoKYy_Qw/live)
+        EOL
+    - name: alyelbasl.m3u8
+      run: |
+        touch ./alyelbasl.m3u8
+        sudo cat >./Movies/alyelbasl.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=W_-IPeNQ2yw)
+        EOL
     - name: Get PeppaPig.m3u8
       run: |
         touch ./PeppaPig.m3u8
@@ -63,7 +57,7 @@ def grab(url):
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@PeppaPigChineseOfficial/live)
+        $(yt-dlp --print urls https://www.youtube.com/channel/FEhashtag/live)
         EOL
     - name: Osratouna.m3u8
       run: |
