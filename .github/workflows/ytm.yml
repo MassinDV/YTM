@@ -48,7 +48,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/channel/UC2012dTs3N2LrkOeI_QvswQ/live)
+        $(yt-dlp --print urls https://stream.zeno.fm/rb361kymjhnuv.mp3)
         EOL
     - name: 24-sports.m3u8
       run: |
