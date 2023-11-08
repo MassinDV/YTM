@@ -648,6 +648,8 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@DaAiVideo/live)
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        https://raw.githubusercontent.com/MassinDV/videos/main/kids/cartoonnetwork.m3u8
         EOL
     - name: Get SETN.m3u8
       run: |
@@ -675,6 +677,8 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@setinews/live)
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        https://raw.githubusercontent.com/MassinDV/videos/main/kids/cartoonnetwork.m3u8
         EOL
     - name: Get FTVLIVE.m3u8
       run: |
@@ -693,6 +697,8 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@FTV_News/live)
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        https://raw.githubusercontent.com/MassinDV/videos/main/kids/cartoonnetwork.m3u8
         EOL
     - name: Get CNN-News18.m3u8
       run: |
@@ -702,6 +708,8 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@cnnnews18/live)
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        https://raw.githubusercontent.com/MassinDV/videos/main/kids/cartoonnetwork.m3u8
         EOL
     - name: cartoonnetwork.m3u8
       run: |
