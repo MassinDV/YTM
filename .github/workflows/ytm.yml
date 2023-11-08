@@ -29,9 +29,9 @@ jobs:
         sudo cat >./Kids/SpongeBobOfficial.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/channel/UCx27Pkk8plpiosF14qXq-VA/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/SpongeBobOfficial.m3u8
         EOL
     - name: flashback.m3u8
@@ -40,7 +40,7 @@ jobs:
         sudo cat >./Movies/flashback.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@SpongeBobOfficial/live)
         $(https://raw.githubusercontent.com/MassinDV/videos/main/kids/tctkids.m3u8)
         EOL
@@ -50,9 +50,9 @@ jobs:
         sudo cat >./Movies/halabel3eyal.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCC_xW57yJDW-SiMwa7WzJxA/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/offlintv.m3u8
         EOL
     - name: jeddahradio.m3u8
@@ -61,7 +61,7 @@ jobs:
         sudo cat >./Radio/jeddahradio.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://stream.zeno.fm/rb361kymjhnuv.mp3)
         EOL
     - name: 24-sports.m3u8
@@ -70,7 +70,7 @@ jobs:
         sudo cat >./Sports/24-sports.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCGnTP2NwS6ZJwmXBTsS2w-w/live)
         EOL
     - name: 24-alnaharreyada.m3u8
@@ -79,7 +79,7 @@ jobs:
         sudo cat >./Sports/alnaharreyada.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UC4UNlrOOnMe7FItF8SIJk2g/live)
         EOL
     - name: alnahar.m3u8
@@ -88,7 +88,7 @@ jobs:
         sudo cat >./General/alnahar.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UC4UNlrOOnMe7FItF8SIJk2g/live)
         EOL
     - name: 24-sports.m3u8
@@ -97,7 +97,7 @@ jobs:
         sudo cat >./Kids/ArabicFairyTales.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCBqfiWktGq5Gy-B5fIaUdzw/live)
         EOL
     - name: alireda.m3u8
@@ -106,7 +106,7 @@ jobs:
         sudo cat >./Movies/flashback.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCHar8V1vqBhQ8AhRoKYy_Qw/live)
         EOL
     - name: alyelbasl.m3u8
@@ -115,7 +115,7 @@ jobs:
         sudo cat >./Movies/alyelbasl.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/watch?v=W_-IPeNQ2yw)
         EOL
     - name: Get PeppaPig.m3u8
@@ -124,7 +124,7 @@ jobs:
         sudo cat >./kids/PeppaPig.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/FEhashtag/live)
         EOL
     - name: Osratouna.m3u8
@@ -133,7 +133,7 @@ jobs:
         sudo cat >./kids/Osratouna.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@Osratouna/live)
         EOL
     - name: Get LionFamily.m3u8
@@ -142,7 +142,7 @@ jobs:
         sudo cat >./kids/LionFamily.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCE_URvMQZgvPqd8rzlFF58A/live)
         EOL
     - name: Get LionFamily2.m3u8
@@ -151,7 +151,7 @@ jobs:
         sudo cat >./kids/LionFamily2.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@lionfamilyenglish4878/live)
         EOL
     - name: Get MashaandtheBear.m3u8
@@ -160,7 +160,7 @@ jobs:
         sudo cat >./kids/MashaandtheBear.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@MashaBearCHINA/live)
         EOL
     - name: Get MashaandtheBear2.m3u8
@@ -169,7 +169,7 @@ jobs:
         sudo cat >./kids/MashaandtheBear2.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@MashaBearTAIWAN/live)
         EOL
     - name: Get Wolfoosstories.m3u8
@@ -178,7 +178,7 @@ jobs:
         sudo cat >./kids/Wolfoosstories.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@wolfooseries-officialchannel/live)
         EOL
     - name: Get HamsterEscape.m3u8
@@ -187,7 +187,7 @@ jobs:
         sudo cat >./kids/HamsterEscape.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@HamsterEscape/live)
         EOL
     - name: Get PeaPeaKorea.m3u8
@@ -196,7 +196,7 @@ jobs:
         sudo cat >./kids/PeaPeaKorea.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@PeaPeaWorld/live)
         EOL
     - name: Get OddbodsFRIENDS.m3u8
@@ -205,7 +205,7 @@ jobs:
         sudo cat >./kids/OddbodsFRIENDS.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@Oddbods/live/1)
         EOL
     - name: Get CANDYCRUSH.m3u8
@@ -214,7 +214,7 @@ jobs:
         sudo cat >./kids/CANDYCRUSH.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@KedooToonsTV/live)
         EOL
     - name: Get HOGI.m3u8
@@ -223,7 +223,7 @@ jobs:
         sudo cat >./kids/HOGI.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@Hogi/live)
         EOL
     - name: Get AntiksOfficial.m3u8
@@ -232,7 +232,7 @@ jobs:
         sudo cat >./kids/AntiksOfficial.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@AntiksOfficial/live)
         EOL
     - name: Get LocoNutsCartoonVideos.m3u8
@@ -241,7 +241,7 @@ jobs:
         sudo cat >./kids/LocoNutsCartoonVideos.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@loconutscartoonvideos/live)
         EOL
     - name: Get GetMovies.m3u8
@@ -250,7 +250,7 @@ jobs:
         sudo cat >./kids/GetMovies.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@getmovies/live)
         EOL
     - name: Get BabySharkOfficial.m3u8
@@ -268,7 +268,7 @@ jobs:
         sudo cat >./kids/TalkingTomHeroes.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@TalkingTomHeroes/live)
         EOL
     - name: Get BoobaCartoon.m3u8
@@ -277,7 +277,7 @@ jobs:
         sudo cat >./kids/BoobaCartoon.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@Booba/live)
         EOL
     - name: Get OkoLeleOfficialchannel.m3u8
@@ -286,7 +286,7 @@ jobs:
         sudo cat >./kids/OkoLeleOfficialchannel.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@OkoLele/live)
         EOL
     - name: Get arirangworld.m3u8
@@ -295,7 +295,7 @@ jobs:
         sudo cat >./arirangworld.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@arirangworld/live)
         EOL
     - name: Get ALLTHEKPOP.m3u8
@@ -304,7 +304,7 @@ jobs:
         sudo cat >./ALLTHEKPOP.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@ALLTHEKPOP/live)
         EOL
     - name: Get TheKPOP.m3u8
@@ -313,7 +313,7 @@ jobs:
         sudo cat >./TheKPOP.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@thekpop/live)
         EOL
     - name: Get TheKPOP2.m3u8
@@ -322,7 +322,7 @@ jobs:
         sudo cat >./TheKPOP2.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@thekpop2/live)
         EOL
     - name: Get HealingComma.m3u8
@@ -331,7 +331,7 @@ jobs:
         sudo cat >./HealingComma.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@HealingComma/live)
         EOL
     - name: Get CafeMusicBGMchannel.m3u8
@@ -340,7 +340,7 @@ jobs:
         sudo cat >./CafeMusicBGMchannel.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@cafemusicbgmchannel/live)
         EOL
     - name: Get GreenMusicBGMchannel.m3u8
@@ -349,7 +349,7 @@ jobs:
         sudo cat >./GreenMusicBGMchannel.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@cafemusicbgmchannel/live)
         EOL
     - name: Get HawaiianMusicBGMchannel.m3u8
@@ -358,7 +358,7 @@ jobs:
         sudo cat >./HawaiianMusicBGMchannel.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@hawaiianbgmchannel/live)
         EOL
     - name: Get NemosDreamscapes.m3u8
@@ -367,7 +367,7 @@ jobs:
         sudo cat >./NemosDreamscapes.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@NemosDreamscapes/live)
         EOL
     - name: Get NatureRelax4K.m3u8
@@ -376,7 +376,7 @@ jobs:
         sudo cat >./NatureRelax4K.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@naturerelax4k984/live)
         EOL
     - name: Get SpaceVideosHD.m3u8
@@ -385,7 +385,7 @@ jobs:
         sudo cat >./SpaceVideosHD.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@SpaceVideosHD/live)
         EOL
     - name: Get RailWay.m3u8
@@ -394,7 +394,7 @@ jobs:
         sudo cat >./RailWay.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@_RailWay_/live)
         EOL
     - name: Get RailCowGirl.m3u8
@@ -403,7 +403,7 @@ jobs:
         sudo cat >./RailCowGirl.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@RailCowGirl/live)
         EOL
     - name: Get RailCowGirl.m3u8
@@ -412,7 +412,7 @@ jobs:
         sudo cat >./RailCowGirl.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@RailCowGirl/live)
         EOL
     - name: Get VirtualRailfan.m3u8
@@ -421,7 +421,7 @@ jobs:
         sudo cat >./VirtualRailfan.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@VirtualRailfan/live)
         EOL
     - name: Get JAPAN_4K.m3u8
@@ -430,7 +430,7 @@ jobs:
         sudo cat >./JAPAN_4K.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@JAPAN_4K/live)
         EOL
     - name: Get AuroraBorealisLive.m3u8
@@ -439,7 +439,7 @@ jobs:
         sudo cat >./AuroraBorealisLive.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@AuroraBorealisLive/live)
         EOL
     - name: Get KittenAcademy.m3u8
@@ -448,7 +448,7 @@ jobs:
         sudo cat >./KittenAcademy.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@KittenAcademy/live)
         EOL
     - name: Get explorebears.m3u8
@@ -457,7 +457,7 @@ jobs:
         sudo cat >./explorebears.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@explorebears/live)
         EOL
     - name: Get kansascityzoo.m3u8
@@ -466,7 +466,7 @@ jobs:
         sudo cat >./kansascityzoo.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@kansascityzoo/live)
         EOL
     - name: Get FOBBVCAM.m3u8
@@ -475,7 +475,7 @@ jobs:
         sudo cat >./FOBBVCAM.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@FOBBVCAM/live)
         EOL
     - name: Get Alishannsa.m3u8
@@ -484,7 +484,7 @@ jobs:
         sudo cat >./Alishannsa.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@Alishannsa/live)
         EOL
     - name: Get eqm.m3u8
@@ -493,7 +493,7 @@ jobs:
         sudo cat >./eqm.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@eqm/live)
         EOL
     - name: Get ctsprog.m3u8
@@ -502,7 +502,7 @@ jobs:
         sudo cat >./ctsprog.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@cts_drama/live)
         EOL
     - name: Get GTVDRAMA.m3u8
@@ -511,7 +511,7 @@ jobs:
         sudo cat >./GTVDRAMA.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@gtv-drama/live)
         EOL
     - name: Get FTVDRAMA.m3u8
@@ -520,7 +520,7 @@ jobs:
         sudo cat >./FTVDRAMA.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@FTVDRAMA/live)
         EOL
     - name: Get TBSCTSSHOW.m3u8
@@ -529,7 +529,7 @@ jobs:
         sudo cat >./TBSCTSSHOW.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@CTSSHOW/live)
         EOL
     - name: Get CtiEntertainment.m3u8
@@ -538,7 +538,7 @@ jobs:
         sudo cat >./CtiEntertainment.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@CtiEntertainment/live)
         EOL
     - name: Get AsiaDigitalMedia.m3u8
@@ -547,7 +547,7 @@ jobs:
         sudo cat >./AsiaDigitalMedia.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@AsiaDigitalMedia/live)
         EOL
     - name: Get Faintv.m3u8
@@ -556,7 +556,7 @@ jobs:
         sudo cat >./Faintv.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@user-ru4oy4fp1u/live)
         EOL
     - name: Get Mr.Player.m3u8
@@ -565,7 +565,7 @@ jobs:
         sudo cat >./Mr.Player.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@Mr.Player/live)
         EOL
     - name: Get ctitv.m3u8
@@ -574,7 +574,7 @@ jobs:
         sudo cat >./ctitv.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@CtiTv/live)
         EOL
     - name: Get newsebc.m3u8
@@ -583,7 +583,7 @@ jobs:
         sudo cat >./newsebc.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@newsebc/live)
         EOL
     - name: Get EBCFinancial.m3u8
@@ -592,7 +592,7 @@ jobs:
         sudo cat >./EBCFinancial.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@57ETFN/live)
         EOL
     - name: Get TVBSNEWS01.m3u8
@@ -601,7 +601,7 @@ jobs:
         sudo cat >./TVBSNEWS01.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@TVBSNEWS01/live)
         EOL
     - name: Get GlobalNewsTV.m3u8
@@ -610,7 +610,7 @@ jobs:
         sudo cat >./GlobalNewsTV.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@globalnewstw/live)
         EOL
     - name: Get mnews.m3u8
@@ -619,7 +619,7 @@ jobs:
         sudo cat >./mnews.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@mnews-tw/live)
         EOL
     - name: Get ttvnewsview.m3u8
@@ -628,7 +628,7 @@ jobs:
         sudo cat >./ttvnewsview.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@TTV_NEWS/live)
         EOL
     - name: Get twctvnews.m3u8
@@ -637,7 +637,7 @@ jobs:
         sudo cat >./twctvnews.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@twctvnews/live)
         EOL
     - name: Get DaAiVideo.m3u8
@@ -646,9 +646,9 @@ jobs:
         sudo cat >./DaAiVideo.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@DaAiVideo/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/cartoonnetwork.m3u8
         EOL
     - name: Get SETN.m3u8
@@ -657,7 +657,7 @@ jobs:
         sudo cat >./SETN.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@setn/live)
         EOL
     - name: Get SETLIVE.m3u8
@@ -666,7 +666,7 @@ jobs:
         sudo cat >./SETLIVE.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@setnews/live)
         EOL
     - name: Get setmoney159.m3u8
@@ -675,9 +675,9 @@ jobs:
         sudo cat >./setmoney159.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@setinews/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/cartoonnetwork.m3u8
         EOL
     - name: Get FTVLIVE.m3u8
@@ -686,7 +686,7 @@ jobs:
         sudo cat >./FTVLIVE.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@FTVLive/live)
         EOL
     - name: Get FTVCP.m3u8
@@ -695,9 +695,9 @@ jobs:
         sudo cat >./FTVCP.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@FTV_News/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/cartoonnetwork.m3u8
         EOL
     - name: Get CNN-News18.m3u8
@@ -706,9 +706,9 @@ jobs:
         sudo cat >./CNN-News18.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@cnnnews18/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/cartoonnetwork.m3u8
         EOL
     - name: cartoonnetwork.m3u8
@@ -717,9 +717,9 @@ jobs:
         sudo cat >./Kids/cartoonnetwork.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCMsgXPD3wzzt8RxHJmXH7hQ/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/cartoonnetwork.m3u8
         EOL
     - name: Shaunthe Sheep Official
@@ -728,9 +728,9 @@ jobs:
         sudo cat >./Kids/ShauntheSheepOfficial.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCS7H8U-n5mINVJjJsaRtGHg/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/shaunthesheepofficial.m3u8
         EOL
     - name: disneyjunior
@@ -739,9 +739,9 @@ jobs:
         sudo cat >./Kids/disneyjunior.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCNcdbMyA59zE-Vk668bKWOg/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/disneyjunior.m3u8
         EOL
     - name: cartoonnetworkasia
@@ -750,9 +750,9 @@ jobs:
         sudo cat >./Kids/cartoonnetworkasia.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UC9hVEGaTpAYMVd-bRsOYKwA/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/cartoonnetworkasia.m3u8
         EOL
     - name: blazeandthemonstermachines
@@ -761,9 +761,9 @@ jobs:
         sudo cat >./Kids/blazeandthemonstermachines.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCmWZB57dUwFfj847-4y63JA/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/blazeandthemonstermachines.m3u8
         EOL	
     - name: lycanarabic.m3u8
@@ -772,9 +772,9 @@ jobs:
         sudo cat >./Kids/lycanarabic.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCk6-3tBugJX-vi43GQpERxg/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/lycanarabic.m3u8
         EOL
     - name: nickelodeonbahasa.m3u8
@@ -783,9 +783,9 @@ jobs:
         sudo cat >./Kids/nickelodeonbahasa.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCTJDdO9klWGpTekswnXreGQ/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/nickelodeonbahasa.m3u8
         EOL
     - name: asaventurasdesunnybunnies.m3u8
@@ -794,9 +794,9 @@ jobs:
         sudo cat >./Kids/asaventurasdesunnybunnies.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCMp1HlbhBf4FTUOJXFN6Gkg/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/asaventurasdesunnybunnies.m3u8
         EOL
     - name: videogyankidsshows.m3u8
@@ -805,9 +805,9 @@ jobs:
         sudo cat >./Kids/videogyankidsshows.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCCc1DMB-AcOssKJ7KweLXBg/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/videogyankidsshows.m3u8
         EOL
     - name: beepbeepnurseryrhymes.m3u8
@@ -816,9 +816,9 @@ jobs:
         sudo cat >./Kids/beepbeepnurseryrhymes.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCc0cGIbYYj79_IUI2A70UjQ/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/beepbeepnurseryrhymes.m3u8
         EOL
     - name: mayaandmary.m3u8
@@ -827,9 +827,9 @@ jobs:
         sudo cat >./Kids/mayaandmary.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UC50vBAtklUoJF1Wx5q0pmuw/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/mayaandmary.m3u8
         EOL
     - name: justlaugh.m3u8
@@ -838,9 +838,9 @@ jobs:
         sudo cat >./Kids/justlaugh.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCiSCzEMhe0KOXFX7rGN_bBA/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/justlaugh.m3u8
         EOL
     - name: sesamestreet.m3u8
@@ -849,9 +849,9 @@ jobs:
         sudo cat >./Kids/sesamestreet.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCoookXUzPciGrEZEXmh4Jjg/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/sesamestreet.m3u8
         EOL
     - name: supersimplesongs.m3u8
@@ -860,9 +860,9 @@ jobs:
         sudo cat >./Kids/supersimplesongs.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCLsooMJoIpl_7ux2jvdPB-Q/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/supersimplesongs.m3u8
         EOL
     - name: bebefinn.m3u8
@@ -871,9 +871,9 @@ jobs:
         sudo cat >./Kids/bebefinn.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/cY4X2sLECUhishGNiyofQ/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/bebefinn.m3u8
         EOL
     - name: firsttoons.m3u8
@@ -882,9 +882,9 @@ jobs:
         sudo cat >./Kids/firsttoons.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UClvwWLUhkEuhV46vLZc4t1g/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/firsttoons.m3u8
         EOL
     - name: sunnybunnies.m3u8
@@ -893,9 +893,9 @@ jobs:
         sudo cat >./Kids/sunnybunnies.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCHyeWVPbdJNWNxdlsKl3IYA/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/sunnybunnies.m3u8
         EOL
     - name: clevercarstv.m3u8
@@ -904,9 +904,9 @@ jobs:
         sudo cat >./Kids/clevercarstv.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCrJKWsgSabn7TlTwR9TOMqA/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/clevercarstv.m3u8
         EOL
     - name: tootytv.m3u8
@@ -915,9 +915,9 @@ jobs:
         sudo cat >./Kids/tootytv.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UC6Vos44EEQ6eO_gA8jGWzjA/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/tootytv.m3u8
         EOL
     - name: simsemtv.m3u8
@@ -926,9 +926,9 @@ jobs:
         sudo cat >./Kids/simsemtv.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UC2TEY9kQ3SwHNnimk_KfPBw/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/simsemtv.m3u8
         EOL
     - name: tamtamtv.m3u8
@@ -937,9 +937,9 @@ jobs:
         sudo cat >./Kids/tamtamtv.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UChOQ_YphUJTEczNXMrUoucg/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/tamtamtv.m3u8
         EOL
     - name: nickjrarabia.m3u8
@@ -948,9 +948,9 @@ jobs:
         sudo cat >./Kids/nickjrarabia.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCOGBA-T3jCfOPey73FzsxCw/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/nickjrarabia.m3u8
         EOL
     - name: diyanetcocuk.m3u8
@@ -959,9 +959,9 @@ jobs:
         sudo cat >./Kids/diyanetcocuk.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCCfTktnzWK__FUN4gj0zIpA/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/diyanetcocuk.m3u8
         EOL
     - name: alwaantv.m3u8
@@ -970,9 +970,9 @@ jobs:
         sudo cat >./Kids/alwaantv.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCZDkp2GfXNuvnGLZ8VvWF4Q/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/alwaantv.m3u8
         EOL
     - name: fruity-tv.m3u8
@@ -981,9 +981,9 @@ jobs:
         sudo cat >./Kids/fruity-tv.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCAhLHOt_5GsRzQMNl5O0hXw/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/fruity-tv.m3u8
         EOL
     - name: osratouna.m3u8
@@ -992,9 +992,9 @@ jobs:
         sudo cat >./Kids/osratouna.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCWIdqSQekeGmUWlSFeCiEnA/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/osratouna.m3u8
         EOL
     - name: kedoo-ar.m3u8
@@ -1003,9 +1003,9 @@ jobs:
         sudo cat >./Kids/kedoo-ar.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCEof7Z2iOP48t9a0HYoek7A/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/kedoo-ar.m3u8
         EOL
     - name: samiarabic.m3u8
@@ -1014,9 +1014,9 @@ jobs:
         sudo cat >./Kids/samiarabic.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCah9hSXlTsAkLcT_yK7bz1Q/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/samiarabic.m3u8
         EOL
     - name: tattymisifu.m3u8
@@ -1025,9 +1025,9 @@ jobs:
         sudo cat >./Kids/tattymisifu.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCxK_eK0_S6n7R-2i0fqk4xA/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/tattymisifu.m3u8
         EOL
     - name: Flash Back.m3u8
@@ -1036,7 +1036,7 @@ jobs:
         sudo cat >./Movies/flashback.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@SpongeBobOfficial/live)
         $(https://raw.githubusercontent.com/MassinDV/videos/main/kids/tctkids.m3u8)
         EOL
@@ -1046,9 +1046,9 @@ jobs:
         sudo cat >./Movies/halabel3eyal.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCC_xW57yJDW-SiMwa7WzJxA/live)
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/offlintv.m3u8
         EOL
     - name: jeddahradio.m3u8
@@ -1057,7 +1057,7 @@ jobs:
         sudo cat >./Radio/jeddahradio.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://stream.zeno.fm/rb361kymjhnuv.mp3)
         EOL
     - name: 24-sports.m3u8
@@ -1066,7 +1066,7 @@ jobs:
         sudo cat >./Sports/24-sports.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCGnTP2NwS6ZJwmXBTsS2w-w/live)
         EOL
     - name: 24-alnaharreyada.m3u8
@@ -1075,7 +1075,7 @@ jobs:
         sudo cat >./Sports/alnaharreyada.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UC4UNlrOOnMe7FItF8SIJk2g/live)
         EOL
     - name: alnahar.m3u8
@@ -1084,7 +1084,7 @@ jobs:
         sudo cat >./General/alnahar.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UC4UNlrOOnMe7FItF8SIJk2g/live)
         EOL
     - name: 24-sports.m3u8
@@ -1093,7 +1093,7 @@ jobs:
         sudo cat >./Kids/ArabicFairyTales.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCBqfiWktGq5Gy-B5fIaUdzw/live)
         EOL
     - name: alireda.m3u8
@@ -1102,7 +1102,7 @@ jobs:
         sudo cat >./Movies/flashback.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCHar8V1vqBhQ8AhRoKYy_Qw/live)
         EOL
     - name: alyelbasl.m3u8
@@ -1111,7 +1111,7 @@ jobs:
         sudo cat >./Movies/alyelbasl.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/watch?v=W_-IPeNQ2yw)
         EOL
     - name: Get PeppaPig.m3u8
@@ -1120,7 +1120,7 @@ jobs:
         sudo cat >./kids/PeppaPig.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/FEhashtag/live)
         EOL
     - name: Osratouna.m3u8
@@ -1129,7 +1129,7 @@ jobs:
         sudo cat >./kids/Osratouna.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@Osratouna/live)
         EOL
     - name: Get LionFamily.m3u8
@@ -1138,7 +1138,7 @@ jobs:
         sudo cat >./kids/LionFamily.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCE_URvMQZgvPqd8rzlFF58A/live)
         EOL
     - name: Get LionFamily2.m3u8
@@ -1147,7 +1147,7 @@ jobs:
         sudo cat >./kids/LionFamily2.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@lionfamilyenglish4878/live)
         EOL
     - name: Get MashaandtheBear.m3u8
@@ -1156,7 +1156,7 @@ jobs:
         sudo cat >./kids/MashaandtheBear.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@MashaBearCHINA/live)
         EOL
     - name: Get MashaandtheBear2.m3u8
@@ -1165,7 +1165,7 @@ jobs:
         sudo cat >./kids/MashaandtheBear2.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@MashaBearTAIWAN/live)
         EOL
     - name: Get Wolfoosstories.m3u8
@@ -1174,7 +1174,7 @@ jobs:
         sudo cat >./kids/Wolfoosstories.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@wolfooseries-officialchannel/live)
         EOL
     - name: Get HamsterEscape.m3u8
@@ -1183,7 +1183,7 @@ jobs:
         sudo cat >./kids/HamsterEscape.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@HamsterEscape/live)
         EOL
     - name: Get PeaPeaKorea.m3u8
@@ -1192,7 +1192,7 @@ jobs:
         sudo cat >./kids/PeaPeaKorea.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@PeaPeaWorld/live)
         EOL
     - name: Get OddbodsFRIENDS.m3u8
@@ -1201,7 +1201,7 @@ jobs:
         sudo cat >./kids/OddbodsFRIENDS.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@Oddbods/live/1)
         EOL
     - name: Get CANDYCRUSH.m3u8
@@ -1210,7 +1210,7 @@ jobs:
         sudo cat >./kids/CANDYCRUSH.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@KedooToonsTV/live)
         EOL
     - name: Get HOGI.m3u8
@@ -1219,7 +1219,7 @@ jobs:
         sudo cat >./kids/HOGI.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@Hogi/live)
         EOL
     - name: Get AntiksOfficial.m3u8
@@ -1228,7 +1228,7 @@ jobs:
         sudo cat >./kids/AntiksOfficial.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@AntiksOfficial/live)
         EOL
     - name: Get LocoNutsCartoonVideos.m3u8
@@ -1237,7 +1237,7 @@ jobs:
         sudo cat >./kids/LocoNutsCartoonVideos.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@loconutscartoonvideos/live)
         EOL
     - name: Get GetMovies.m3u8
@@ -1246,7 +1246,7 @@ jobs:
         sudo cat >./kids/GetMovies.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@getmovies/live)
         EOL
     - name: Get BabySharkOfficial.m3u8
@@ -1264,7 +1264,7 @@ jobs:
         sudo cat >./kids/TalkingTomHeroes.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@TalkingTomHeroes/live)
         EOL
     - name: Get BoobaCartoon.m3u8
@@ -1273,7 +1273,7 @@ jobs:
         sudo cat >./kids/BoobaCartoon.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@Booba/live)
         EOL
     - name: Get OkoLeleOfficialchannel.m3u8
@@ -1282,7 +1282,7 @@ jobs:
         sudo cat >./kids/OkoLeleOfficialchannel.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@OkoLele/live)
         EOL
     - name: Get arirangworld.m3u8
@@ -1291,7 +1291,7 @@ jobs:
         sudo cat >./arirangworld.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@arirangworld/live)
         EOL
     - name: Get ALLTHEKPOP.m3u8
@@ -1300,7 +1300,7 @@ jobs:
         sudo cat >./ALLTHEKPOP.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@ALLTHEKPOP/live)
         EOL
     - name: Get TheKPOP.m3u8
@@ -1309,7 +1309,7 @@ jobs:
         sudo cat >./TheKPOP.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@thekpop/live)
         EOL
     - name: Get TheKPOP2.m3u8
@@ -1318,7 +1318,7 @@ jobs:
         sudo cat >./TheKPOP2.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@thekpop2/live)
         EOL
     - name: Get HealingComma.m3u8
@@ -1327,7 +1327,7 @@ jobs:
         sudo cat >./HealingComma.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@HealingComma/live)
         EOL
     - name: Get CafeMusicBGMchannel.m3u8
@@ -1336,7 +1336,7 @@ jobs:
         sudo cat >./CafeMusicBGMchannel.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@cafemusicbgmchannel/live)
         EOL
     - name: Get GreenMusicBGMchannel.m3u8
@@ -1345,7 +1345,7 @@ jobs:
         sudo cat >./GreenMusicBGMchannel.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@cafemusicbgmchannel/live)
         EOL
     - name: Get HawaiianMusicBGMchannel.m3u8
@@ -1354,7 +1354,7 @@ jobs:
         sudo cat >./HawaiianMusicBGMchannel.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@hawaiianbgmchannel/live)
         EOL
     - name: Get NemosDreamscapes.m3u8
@@ -1363,7 +1363,7 @@ jobs:
         sudo cat >./NemosDreamscapes.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@NemosDreamscapes/live)
         EOL
     - name: Get NatureRelax4K.m3u8
@@ -1372,7 +1372,7 @@ jobs:
         sudo cat >./NatureRelax4K.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@naturerelax4k984/live)
         EOL
     - name: Get SpaceVideosHD.m3u8
@@ -1381,7 +1381,7 @@ jobs:
         sudo cat >./SpaceVideosHD.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@SpaceVideosHD/live)
         EOL
     - name: Get RailWay.m3u8
@@ -1390,7 +1390,7 @@ jobs:
         sudo cat >./RailWay.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@_RailWay_/live)
         EOL
     - name: Get RailCowGirl.m3u8
@@ -1399,7 +1399,7 @@ jobs:
         sudo cat >./RailCowGirl.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@RailCowGirl/live)
         EOL
     - name: Get RailCowGirl.m3u8
@@ -1408,7 +1408,7 @@ jobs:
         sudo cat >./RailCowGirl.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@RailCowGirl/live)
         EOL
     - name: Get VirtualRailfan.m3u8
@@ -1417,7 +1417,7 @@ jobs:
         sudo cat >./VirtualRailfan.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@VirtualRailfan/live)
         EOL
     - name: Get JAPAN_4K.m3u8
@@ -1426,7 +1426,7 @@ jobs:
         sudo cat >./JAPAN_4K.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@JAPAN_4K/live)
         EOL
     - name: Get AuroraBorealisLive.m3u8
@@ -1435,7 +1435,7 @@ jobs:
         sudo cat >./AuroraBorealisLive.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@AuroraBorealisLive/live)
         EOL
     - name: Get KittenAcademy.m3u8
@@ -1444,7 +1444,7 @@ jobs:
         sudo cat >./KittenAcademy.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@KittenAcademy/live)
         EOL
     - name: Get explorebears.m3u8
@@ -1453,7 +1453,7 @@ jobs:
         sudo cat >./explorebears.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@explorebears/live)
         EOL
     - name: Get kansascityzoo.m3u8
@@ -1462,7 +1462,7 @@ jobs:
         sudo cat >./kansascityzoo.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@kansascityzoo/live)
         EOL
     - name: Get FOBBVCAM.m3u8
@@ -1471,7 +1471,7 @@ jobs:
         sudo cat >./FOBBVCAM.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@FOBBVCAM/live)
         EOL
     - name: Get Alishannsa.m3u8
@@ -1480,7 +1480,7 @@ jobs:
         sudo cat >./Alishannsa.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@Alishannsa/live)
         EOL
     - name: Get eqm.m3u8
@@ -1489,7 +1489,7 @@ jobs:
         sudo cat >./eqm.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@eqm/live)
         EOL
     - name: Get ctsprog.m3u8
@@ -1498,7 +1498,7 @@ jobs:
         sudo cat >./ctsprog.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@cts_drama/live)
         EOL
     - name: Get GTVDRAMA.m3u8
@@ -1507,7 +1507,7 @@ jobs:
         sudo cat >./GTVDRAMA.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@gtv-drama/live)
         EOL
     - name: Get FTVDRAMA.m3u8
@@ -1516,7 +1516,7 @@ jobs:
         sudo cat >./FTVDRAMA.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@FTVDRAMA/live)
         EOL
     - name: Get TBSCTSSHOW.m3u8
@@ -1525,7 +1525,7 @@ jobs:
         sudo cat >./TBSCTSSHOW.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@CTSSHOW/live)
         EOL
     - name: Get CtiEntertainment.m3u8
@@ -1534,7 +1534,7 @@ jobs:
         sudo cat >./CtiEntertainment.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@CtiEntertainment/live)
         EOL
     - name: Get AsiaDigitalMedia.m3u8
@@ -1543,7 +1543,7 @@ jobs:
         sudo cat >./AsiaDigitalMedia.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@AsiaDigitalMedia/live)
         EOL
     - name: Get Faintv.m3u8
@@ -1552,7 +1552,7 @@ jobs:
         sudo cat >./Faintv.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@user-ru4oy4fp1u/live)
         EOL
     - name: Get Mr.Player.m3u8
@@ -1561,7 +1561,7 @@ jobs:
         sudo cat >./Mr.Player.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@Mr.Player/live)
         EOL
     - name: Get ctitv.m3u8
@@ -1570,7 +1570,7 @@ jobs:
         sudo cat >./ctitv.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@CtiTv/live)
         EOL
     - name: Get newsebc.m3u8
@@ -1579,7 +1579,7 @@ jobs:
         sudo cat >./newsebc.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@newsebc/live)
         EOL
     - name: Get EBCFinancial.m3u8
@@ -1588,7 +1588,7 @@ jobs:
         sudo cat >./EBCFinancial.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@57ETFN/live)
         EOL
     - name: Get TVBSNEWS01.m3u8
@@ -1597,7 +1597,7 @@ jobs:
         sudo cat >./TVBSNEWS01.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@TVBSNEWS01/live)
         EOL
     - name: Get GlobalNewsTV.m3u8
@@ -1606,7 +1606,7 @@ jobs:
         sudo cat >./GlobalNewsTV.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@globalnewstw/live)
         EOL
     - name: Get mnews.m3u8
@@ -1615,7 +1615,7 @@ jobs:
         sudo cat >./mnews.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@mnews-tw/live)
         EOL
     - name: Get ttvnewsview.m3u8
@@ -1624,7 +1624,7 @@ jobs:
         sudo cat >./ttvnewsview.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@TTV_NEWS/live)
         EOL
     - name: Get twctvnews.m3u8
@@ -1633,7 +1633,7 @@ jobs:
         sudo cat >./twctvnews.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@twctvnews/live)
         EOL
     - name: Get DaAiVideo.m3u8
@@ -1642,7 +1642,7 @@ jobs:
         sudo cat >./DaAiVideo.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@DaAiVideo/live)
         EOL
     - name: Get SETN.m3u8
@@ -1651,7 +1651,7 @@ jobs:
         sudo cat >./SETN.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@setn/live)
         EOL
     - name: Get SETLIVE.m3u8
@@ -1660,7 +1660,7 @@ jobs:
         sudo cat >./SETLIVE.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@setnews/live)
         EOL
     - name: Get setmoney159.m3u8
@@ -1669,7 +1669,7 @@ jobs:
         sudo cat >./setmoney159.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@setinews/live)
         EOL
     - name: Get FTVLIVE.m3u8
@@ -1678,7 +1678,7 @@ jobs:
         sudo cat >./FTVLIVE.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@FTVLive/live)
         EOL
     - name: Get FTVCP.m3u8
@@ -1687,7 +1687,7 @@ jobs:
         sudo cat >./FTVCP.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@FTV_News/live)
         EOL
     - name: Get CNN-News18.m3u8
@@ -1696,7 +1696,7 @@ jobs:
         sudo cat >./CNN-News18.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@cnnnews18/live)
         EOL
     - name: git add
