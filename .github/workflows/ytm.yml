@@ -53,7 +53,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/channel/UCMsgXPD3wzzt8RxHJmXH7hQ/live)
-		#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+	#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/cartoonnetwork.m3u8
         EOL
     - name: Shaunthe Sheep Official
@@ -64,7 +64,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/channel/UCS7H8U-n5mINVJjJsaRtGHg/live)
-		#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+	#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/shaunthesheepofficial.m3u8
         EOL
     - name: disneyjunior
@@ -75,7 +75,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/channel/UCNcdbMyA59zE-Vk668bKWOg/live)
-		#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+	#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/disneyjunior.m3u8
         EOL
     - name: cartoonnetworkasia
@@ -86,7 +86,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/channel/UC9hVEGaTpAYMVd-bRsOYKwA/live)
-		#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+	#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/cartoonnetworkasia.m3u8
         EOL
     - name: blazeandthemonstermachines
@@ -108,7 +108,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/channel/UCk6-3tBugJX-vi43GQpERxg/live)
-		#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+	#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/lycanarabic.m3u8
         EOL
     - name: nickelodeonbahasa.m3u8
@@ -119,7 +119,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/channel/UCTJDdO9klWGpTekswnXreGQ/live)
-		#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+	#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/nickelodeonbahasa.m3u8
         EOL
     - name: asaventurasdesunnybunnies.m3u8
@@ -141,7 +141,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/channel/UCCc1DMB-AcOssKJ7KweLXBg/live)
-		#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+	#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/videogyankidsshows.m3u8
         EOL
     - name: beepbeepnurseryrhymes.m3u8
@@ -152,7 +152,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/channel/UCc0cGIbYYj79_IUI2A70UjQ/live)
-		#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+	#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/beepbeepnurseryrhymes.m3u8
         EOL
     - name: mayaandmary.m3u8
@@ -163,7 +163,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/channel/UC50vBAtklUoJF1Wx5q0pmuw/live)
-		#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+	#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/mayaandmary.m3u8
         EOL
     - name: justlaugh.m3u8
@@ -174,7 +174,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/channel/UCiSCzEMhe0KOXFX7rGN_bBA/live)
-		#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+	#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/justlaugh.m3u8
         EOL
     - name: sesamestreet.m3u8
@@ -185,7 +185,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/channel/UCoookXUzPciGrEZEXmh4Jjg/live)
-		#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+	#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/sesamestreet.m3u8
         EOL
     - name: supersimplesongs.m3u8
@@ -196,7 +196,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/channel/UCLsooMJoIpl_7ux2jvdPB-Q/live)
-		#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+	#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/supersimplesongs.m3u8
         EOL
     - name: bebefinn.m3u8
@@ -207,7 +207,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/channel/cY4X2sLECUhishGNiyofQ/live)
-		#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+	#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/bebefinn.m3u8
         EOL
     - name: firsttoons.m3u8
@@ -218,7 +218,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/channel/UClvwWLUhkEuhV46vLZc4t1g/live)
-		#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+	#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/firsttoons.m3u8
         EOL
     - name: sunnybunnies.m3u8
@@ -229,7 +229,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/channel/UCHyeWVPbdJNWNxdlsKl3IYA/live)
-		#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+	#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/sunnybunnies.m3u8
         EOL
     - name: clevercarstv.m3u8
@@ -240,7 +240,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/channel/UCrJKWsgSabn7TlTwR9TOMqA/live)
-		#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+	#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/clevercarstv.m3u8
         EOL
     - name: tootytv.m3u8
@@ -251,7 +251,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/channel/UC6Vos44EEQ6eO_gA8jGWzjA/live)
-		#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+	#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/tootytv.m3u8
         EOL
     - name: simsemtv.m3u8
@@ -262,7 +262,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/channel/UC2TEY9kQ3SwHNnimk_KfPBw/live)
-		#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+	#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/simsemtv.m3u8
         EOL
     - name: tamtamtv.m3u8
@@ -273,7 +273,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/channel/UChOQ_YphUJTEczNXMrUoucg/live)
-		#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+	#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/tamtamtv.m3u8
         EOL
     - name: nickjrarabia.m3u8
@@ -284,7 +284,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/channel/UCOGBA-T3jCfOPey73FzsxCw/live)
-		#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+	#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/nickjrarabia.m3u8
         EOL
     - name: diyanetcocuk.m3u8
@@ -295,7 +295,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/channel/UCCfTktnzWK__FUN4gj0zIpA/live)
-		#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+	#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/diyanetcocuk.m3u8
         EOL
     - name: alwaantv.m3u8
@@ -306,7 +306,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/channel/UCZDkp2GfXNuvnGLZ8VvWF4Q/live)
-		#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+	#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/alwaantv.m3u8
         EOL
     - name: fruity-tv.m3u8
@@ -317,7 +317,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/channel/UCAhLHOt_5GsRzQMNl5O0hXw/live)
-		#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+	#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/fruity-tv.m3u8
         EOL
     - name: osratouna.m3u8
@@ -328,7 +328,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/channel/UCWIdqSQekeGmUWlSFeCiEnA/live)
-		#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+	#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/osratouna.m3u8
         EOL
     - name: kedoo-ar.m3u8
@@ -339,7 +339,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/channel/UCEof7Z2iOP48t9a0HYoek7A/live)
-		#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+	#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/kedoo-ar.m3u8
         EOL
     - name: samiarabic.m3u8
@@ -350,7 +350,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/channel/UCah9hSXlTsAkLcT_yK7bz1Q/live)
-		#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+	#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/samiarabic.m3u8
         EOL
     - name: tattymisifu.m3u8
@@ -361,7 +361,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/channel/UCxK_eK0_S6n7R-2i0fqk4xA/live)
-		#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+	#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/tattymisifu.m3u8
         EOL
     - name: Flash Back.m3u8
