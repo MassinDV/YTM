@@ -30,7 +30,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/channel/UCU6kl_-xHJ0KKKk2CgVixlA/live)?https://raw.githubusercontent.com/MassinDV/videos/main/kids/tctkids.m3u8
+        $(yt-dlp --print urls https://www.youtube.com/@SpongeBobOfficial/live)?https://raw.githubusercontent.com/MassinDV/videos/main/kids/tctkids.m3u8
         EOL
     - name: halabel3eyall.m3u8
       run: |
