@@ -31,8 +31,8 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/channel/channel/UCx27Pkk8plpiosF14qXq-VA/live)
-	#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        https://raw.githubusercontent.com/MassinDV/videos/main/kids/spongevobofficial.m3u8
+		#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        https://raw.githubusercontent.com/MassinDV/videos/main/kids/SpongeBobOfficial.m3u8
         EOL
     - name: LoudHouse.m3u8
       run: |
