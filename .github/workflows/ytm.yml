@@ -40,7 +40,9 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/channel/UCC_xW57yJDW-SiMwa7WzJxA/live?)https://raw.githubusercontent.com/MassinDV/videos/main/kids/tctkids.m3u8
+        $(yt-dlp --print urls https://www.youtube.com/channel/UCC_xW57yJDW-SiMwa7WzJxA/live)
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        https://raw.githubusercontent.com/MassinDV/videos/main/offlintv.m3u8
         EOL
     - name: jeddahradio.m3u8
       run: |
