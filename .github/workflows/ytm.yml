@@ -703,17 +703,6 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@cnnnews18/live)
         EOL
-    - name: LoudHouse.m3u8
-      run: |
-        touch ./LoudHouse.m3u8
-        sudo cat >./Kids/LoudHouse.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/channel/UClPzMXh4d5baHqR_tSeiagw/live)
-	#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        https://raw.githubusercontent.com/MassinDV/videos/main/kids/loudhouse.m3u8
-        EOL
     - name: cartoonnetwork.m3u8
       run: |
         touch ./cartoonnetwork.m3u8
