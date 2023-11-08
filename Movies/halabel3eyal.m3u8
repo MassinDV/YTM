@@ -1,4 +1,9 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-?https://raw.githubusercontent.com/MassinDV/videos/main/kids/tctkids.m3u8
+
+if [[ "" != *".m3u8"* ]]; then
+response="
+https://raw.githubusercontent.com/MassinDV/videos/main/kids/tctkids.m3u8"
+fi
+echo "" > ./halabel3eyal.m3u8
