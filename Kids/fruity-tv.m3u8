@@ -1,6 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
-
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1699575894/ei/9iNNZYz1Ovyllu8PxPyUiAU/ip/52.173.166.175/id/J5NgMBDmPEo.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr1---sn-q4fzene7.googlevideo.com/playlist_duration/30/manifest_duration/30/spc/UWF9f3gmPqUPjcTJIe5bAkT9oZNhbyo/vprv/1/playlist_type/DVR/mh/uH/mm/44/mn/sn-q4fzene7/ms/lva/mv/u/mvi/1/pl/19/dover/11/pacing/0/keepalive/yes/fexp/24007246/beids/24350018/mt/1699553100/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/ANLwegAwRAIgV76lLwgBzweMFXSATE2abFXbFSguCPqcS0mhkThcRHMCIAsaL7NL1HrQquM8XbcS7_qNlBg_Rwq63cBlRiXm0el7/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AM8Gb2swRgIhALmUqzX9FdoAdYmSEu6jF1Q-ky2A6dFLRAg8s3oDMwOqAiEA50rUSpTiRWbzEmWgYgYPz3NqMOSYJOz-unBOKbbaohY%3D/playlist/index.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
 https://raw.githubusercontent.com/MassinDV/videos/main/kids/fruity-tv.m3u8
