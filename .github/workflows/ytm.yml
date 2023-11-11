@@ -31,7 +31,6 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCRN5ho3UGhUi7ZCBe2G2f2w/live)
-        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/morocco/ma-03-digital.m3u8
         EOL
     - name: snrt-news.m3u8
@@ -42,7 +41,6 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCvtQeUIfmelyvCDMbEPw9vw/live)
-        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/morocco/ma-snrt-news.m3u8
         EOL
     - name: SpongeBobOfficial.m3u8
@@ -74,7 +72,6 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCC_xW57yJDW-SiMwa7WzJxA/live)
-        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/offlintv.m3u8
         EOL
     - name: jeddahradio.m3u8
@@ -699,7 +696,6 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@setinews/live)
-        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/cartoonnetwork.m3u8
         EOL
     - name: Get FTVLIVE.m3u8
@@ -730,7 +726,6 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/@cnnnews18/live)
-        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/cartoonnetwork.m3u8
         EOL
     - name: cartoonnetwork.m3u8
@@ -752,7 +747,6 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCS7H8U-n5mINVJjJsaRtGHg/live)
-        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/shaunthesheepofficial.m3u8
         EOL
     - name: disneyjunior
@@ -785,7 +779,6 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCmWZB57dUwFfj847-4y63JA/live)
-        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/blazeandthemonstermachines.m3u8
         EOL	
     - name: lycanarabic.m3u8
@@ -818,7 +811,6 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCMp1HlbhBf4FTUOJXFN6Gkg/live)
-        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/asaventurasdesunnybunnies.m3u8
         EOL
     - name: videogyankidsshows.m3u8
@@ -829,7 +821,6 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCCc1DMB-AcOssKJ7KweLXBg/live)
-        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/videogyankidsshows.m3u8
         EOL
     - name: beepbeepnurseryrhymes.m3u8
@@ -840,7 +831,6 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCc0cGIbYYj79_IUI2A70UjQ/live)
-        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/beepbeepnurseryrhymes.m3u8
         EOL
     - name: mayaandmary.m3u8
@@ -851,7 +841,6 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UC50vBAtklUoJF1Wx5q0pmuw/live)
-        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/mayaandmary.m3u8
         EOL
     - name: justlaugh.m3u8
@@ -862,7 +851,6 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCiSCzEMhe0KOXFX7rGN_bBA/live)
-        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/justlaugh.m3u8
         EOL
     - name: sesamestreet.m3u8
@@ -873,7 +861,6 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCoookXUzPciGrEZEXmh4Jjg/live)
-        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/sesamestreet.m3u8
         EOL
     - name: supersimplesongs.m3u8
@@ -884,7 +871,6 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCLsooMJoIpl_7ux2jvdPB-Q/live)
-        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/supersimplesongs.m3u8
         EOL
     - name: bebefinn.m3u8
@@ -895,7 +881,6 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/cY4X2sLECUhishGNiyofQ/live)
-        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/bebefinn.m3u8
         EOL
     - name: firsttoons.m3u8
@@ -917,7 +902,6 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCHyeWVPbdJNWNxdlsKl3IYA/live)
-        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/sunnybunnies.m3u8
         EOL
     - name: clevercarstv.m3u8
@@ -928,7 +912,6 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCrJKWsgSabn7TlTwR9TOMqA/live)
-        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/clevercarstv.m3u8
         EOL
     - name: tootytv.m3u8
@@ -939,7 +922,6 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UC6Vos44EEQ6eO_gA8jGWzjA/live)
-        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/tootytv.m3u8
         EOL
     - name: simsemtv.m3u8
@@ -950,7 +932,6 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UC2TEY9kQ3SwHNnimk_KfPBw/live)
-        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/simsemtv.m3u8
         EOL
     - name: tamtamtv.m3u8
@@ -961,7 +942,6 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UChOQ_YphUJTEczNXMrUoucg/live)
-        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/tamtamtv.m3u8
         EOL
     - name: nickjrarabia.m3u8
@@ -972,7 +952,6 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCOGBA-T3jCfOPey73FzsxCw/live)
-        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/nickjrarabia.m3u8
         EOL
     - name: diyanetcocuk.m3u8
@@ -994,7 +973,6 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCZDkp2GfXNuvnGLZ8VvWF4Q/live)
-        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/alwaantv.m3u8
         EOL
     - name: fruity-tv.m3u8
@@ -1005,7 +983,6 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCAhLHOt_5GsRzQMNl5O0hXw/live)
-        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/fruity-tv.m3u8
         EOL
     - name: osratouna.m3u8
@@ -1016,7 +993,6 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCWIdqSQekeGmUWlSFeCiEnA/live)
-        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/osratouna.m3u8
         EOL
     - name: kedoo-ar.m3u8
@@ -1027,7 +1003,6 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCEof7Z2iOP48t9a0HYoek7A/live)
-        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/kedoo-ar.m3u8
         EOL
     - name: samiarabic.m3u8
@@ -1038,7 +1013,6 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCah9hSXlTsAkLcT_yK7bz1Q/live)
-        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/samiarabic.m3u8
         EOL
     - name: tattymisifu.m3u8
@@ -1049,7 +1023,6 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCxK_eK0_S6n7R-2i0fqk4xA/live)
-        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/kids/tattymisifu.m3u8
         EOL
     - name: Flash Back.m3u8
@@ -1070,7 +1043,6 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         $(yt-dlp --print urls https://www.youtube.com/channel/UCC_xW57yJDW-SiMwa7WzJxA/live)
-        #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
         https://raw.githubusercontent.com/MassinDV/videos/main/offlintv.m3u8
         EOL
     - name: jeddahradio.m3u8
