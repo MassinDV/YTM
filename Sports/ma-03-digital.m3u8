@@ -1,5 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1699845172/ei/1D9RZc3RG4WL8wTJ_YiQBw/ip/20.185.158.81/id/2zqjS-kPksE.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr5---sn-p5qddn7r.googlevideo.com/playlist_duration/30/manifest_duration/30/spc/UWF9f-TRT0TBV3WFN7HXxd89TsxAumI/vprv/1/playlist_type/DVR/initcwndbps/1403750/mh/41/mm/44/mn/sn-p5qddn7r/ms/lva/mv/m/mvi/5/pl/16/dover/11/pacing/0/keepalive/yes/fexp/24007246/beids/24350018/mt/1699823072/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/ANLwegAwRQIgdqFFr4h0ypVqZFXjQ0lEL_9_KZIaPRiIGcdCG4WK6wQCIQCMsHPViQcKdkxzB-1TWvvpnxb8mmBSJJUojJ6s_eYZRQ%3D%3D/lsparams/hls_chunk_host,initcwndbps,mh,mm,mn,ms,mv,mvi,pl/lsig/AM8Gb2swRAIgGSaInFdezENEt0gi6j4qcjTz9OyGXqhJPSx7UGrCg1MCIBx4ZW0QRCdG_T80o-PXfRFAIUUJBim1fA7jIK4D9MnC/playlist/index.m3u8
+
 https://raw.githubusercontent.com/MassinDV/videos/main/morocco/ma-03-digital.m3u8
