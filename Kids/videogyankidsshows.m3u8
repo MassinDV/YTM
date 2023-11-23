@@ -1,5 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
-
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1700774437/ei/xW1fZcSrNZKTsfIPt-mB6AI/ip/4.227.114.177/id/DvRSMARwqhg.1/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/rqh/1/hls_chunk_host/rr4---sn-q4fl6ns6.googlevideo.com/playlist_duration/30/manifest_duration/30/spc/UWF9f1xEHUvAKtX0hCOx5yAVys-sewo/vprv/1/playlist_type/DVR/mh/_2/mm/44/mn/sn-q4fl6ns6/ms/lva/mv/u/mvi/4/pl/16/dover/11/pacing/0/keepalive/yes/fexp/24007246/mt/1700751590/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/ANLwegAwRAIgalsbIj8zuFVy9-zIsjsfSi8AVGQpes3mcUUgzG-uVb8CIH_H_C5LHSXXOQtaBNGAFIHaiVBhThgKj_FpQo2xTMZ_/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AM8Gb2swRAIgOXk0hl2GYAmTxqaQl2neadrL0zP7Zuh1abdVg4X2dt0CIBP6BArXMx8vdIH3deyg_uNG6o9A8FBvjbpqtozf5De8/playlist/index.m3u8
 https://raw.githubusercontent.com/MassinDV/videos/main/kids/videogyankidsshows.m3u8
