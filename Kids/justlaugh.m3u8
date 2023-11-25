@@ -1,5 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
-
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1700937145/ei/WelhZfP9FMe2_9EPps6FoAE/ip/74.249.21.242/id/LP-hqySMTYQ.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr4---sn-p5qs7nzk.googlevideo.com/playlist_duration/30/manifest_duration/30/spc/UWF9f_SmKipfsfpL8pREnj1Y2sYy9vI/vprv/1/playlist_type/DVR/initcwndbps/2296250/mh/Gy/mm/44/mn/sn-p5qs7nzk/ms/lva/mv/m/mvi/4/pl/16/dover/11/pacing/0/keepalive/yes/fexp/24007246/mt/1700915069/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/ANLwegAwRAIgKy5zl45lQgCqPyteQbePXKZ2SWMeNDBNTIHBzgpU0psCICqdeAVUSAsPyJ8hQpPtZ9GfVanCRghK3k5DN77kJ7JE/lsparams/hls_chunk_host,initcwndbps,mh,mm,mn,ms,mv,mvi,pl/lsig/AM8Gb2swRgIhAMG2fHI9IPxMEghH14iQdW855H-xZA_PWSvh92DPnIjKAiEAm97jCPkUKkrhrQCzX-9CZXsbE7aJk65SHucsYGMWZPs%3D/playlist/index.m3u8
 https://raw.githubusercontent.com/MassinDV/videos/main/kids/justlaugh.m3u8
