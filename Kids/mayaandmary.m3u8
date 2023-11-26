@@ -1,5 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
-
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1700990410/ei/arliZb-WLviTsfIPrfu8yAg/ip/4.227.115.14/id/aphkA8O37Zg.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr4---sn-a5msen7l.googlevideo.com/playlist_duration/30/manifest_duration/30/spc/UWF9f6DnqFYBXXvB9-qyrQ4z6Z6hpRI/vprv/1/playlist_type/DVR/mh/vb/mm/44/mn/sn-a5msen7l/ms/lva/mv/u/mvi/4/pl/16/dover/11/pacing/0/keepalive/yes/fexp/24007246/mt/1700968447/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/ANLwegAwRAIgbR--95YXYEuNK_okHsP8LQqoS7g43j5DZXV1G3-6sHYCIHxphJ8o2UuiKkv9PD3xfPph-FOMImy8EhFiUo0pZSf_/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AM8Gb2swRAIgHH8dsoqjWR4oIdOicL0nvgfTMd4K9pWsAGcJPqA3ROQCIHTVT4Io0aGz6adKka8AiWIA2JLsvBW7GwV4GyjhD-av/playlist/index.m3u8
 https://raw.githubusercontent.com/MassinDV/videos/main/kids/mayaandmary.m3u8
