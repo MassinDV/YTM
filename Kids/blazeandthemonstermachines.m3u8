@@ -1,6 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
-
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1701120081/ei/8bNkZdz1FLTXsfIPh92b0AU/ip/20.171.70.53/id/CoANBCdTEsk.1/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr2---sn-a5msenes.googlevideo.com/playlist_duration/30/manifest_duration/30/gcr/us/spc/UWF9fzXs51b0zWEfd1e8RYIo7BFSdse4GowIjVxH7g/vprv/1/playlist_type/DVR/mh/dE/mm/44/mn/sn-a5msenes/ms/lva/mv/u/mvi/2/pl/18/dover/11/pacing/0/keepalive/yes/fexp/24007246/mt/1701097711/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,playlist_duration,manifest_duration,gcr,spc,vprv,playlist_type/sig/ANLwegAwRQIhANojsLrvqwsvKvv_SVu5K8A7mzxJ6MPdr4woensitIT_AiAgqv9aCOCugBoO-hHRfwGhC5LCE5HiiUFsY7nzscKQ1w%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AM8Gb2swRgIhAIPzxefaCOJNBwL4QDEIZ8xaKuhs0SMaG7BdxRFuxeZuAiEAgmdEU1chNDQeXd0z-Xy9iMyt8y-iU55NPmhH1WX9MBg%3D/playlist/index.m3u8
 https://raw.githubusercontent.com/MassinDV/videos/main/kids/blazeandthemonstermachines.m3u8
 EOL	
