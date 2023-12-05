@@ -1,5 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
-
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1701779150/ei/bsJuZfmUNP6YsfIP2O2cmAo/ip/52.157.14.82/id/gJCTnfGrOOQ.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr4---sn-4g5e6nz7.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/spc/UWF9f78CrDrhsMCPjHsT2IDUFjhv6GQ/vprv/1/playlist_type/DVR/mh/r-/mm/44/mn/sn-4g5e6nz7/ms/lva/mv/u/mvi/4/pl/18/dover/11/pacing/0/keepalive/yes/fexp/24007246/mt/1701756784/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/ANLwegAwRgIhAK07Y45HkfWdtcymzG03J10yQeWR1QfADoQ_ZjI45WaCAiEAv6liH2rBCVGI1NW-JF1nU_yJj3amG9NBnzZCFQIDI6A%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AM8Gb2swRQIgU3OvSdmq6j5hLnXUfaHpbg9ELLY2fv_fzBmlH5_ciOACIQDcL4AEXLPnEiYwIyntv-xmeTVGi_f6EmAiUQKeYFv1ng%3D%3D/playlist/index.m3u8
 https://raw.githubusercontent.com/MassinDV/videos/main/kids/simsemtv.m3u8
