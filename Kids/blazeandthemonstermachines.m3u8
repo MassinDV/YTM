@@ -1,6 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1703042121/ei/6QeCZbGADa3Tlu8P_MC04AI/ip/172.183.79.15/id/cQp3E56OsJg.1/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr5---sn-vgqsrn6e.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/gcr/us/spc/UWF9f5E_jAy0Ko1qtdC0tdwU_1g9iAjNqRp4f6vDxg/vprv/1/playlist_type/DVR/initcwndbps/961250/mh/W1/mm/44/mn/sn-vgqsrn6e/ms/lva/mv/m/mvi/5/pl/14/dover/11/pacing/0/keepalive/yes/fexp/24007246/mt/1703019626/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,gcr,spc,vprv,playlist_type/sig/AJfQdSswRQIgcRGKuGPYzn2UFr78kF4PhCvc_OewjUgHwzx6t3iysOECIQDEjcRo_oPZ193tM-urYcth9kk77US3palbxKw3VgXHVw%3D%3D/lsparams/hls_chunk_host,initcwndbps,mh,mm,mn,ms,mv,mvi,pl/lsig/AAO5W4owRAIgXz8S7TtWnNREJ_53JH_fHrfdYsjDtvGtLTFGAQbG8lMCIBXtvVEwKpPYvEmjyXqULWbAU4yXjr7mzgpfkgk81NDb/playlist/index.m3u8
+
 https://raw.githubusercontent.com/MassinDV/videos/main/kids/blazeandthemonstermachines.m3u8
 EOL	
