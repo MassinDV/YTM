@@ -1,5 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1705908108/ei/LMOtZYn3L6-vsfIP3IWsoAQ/ip/52.157.1.138/id/DDqRfGds7Cs.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-p5qs7nsr.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/spc/UWF9fzT4uYgC-qZIPFXzl7C4i1oxjRIZ-nHv/vprv/1/playlist_type/DVR/mh/o5/mm/44/mn/sn-p5qs7nsr/ms/lva/mv/u/mvi/1/pl/18/dover/11/pacing/0/keepalive/yes/fexp/24007246/mt/1705884747/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AJfQdSswRQIgMx5hutFpBVhX9kX0oC2dKKEEYjaE_E74lapueJGw5KQCIQDIVFK5DhuVRO4T9bjIu2H2b4yFxaA8K7V1FiGNZuXZWg%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AAO5W4owRQIhAJiINSDDKT7C-fa-X-W-x3zL_WeD2mqaCy0U5QCNHKgkAiAWjxJ-14S4hhDgdrp1eEIZNmsotE1QgknfcBJ22VIdxg%3D%3D/playlist/index.m3u8
+
 https://raw.githubusercontent.com/MassinDV/videos/main/kids/sunnybunnies.m3u8
