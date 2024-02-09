@@ -1,5 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
-
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1707491995/ei/O-7FZZr-C8a_sfIP_by_8AM/ip/52.157.3.99/id/DLIEeN07o7Y.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr5---sn-vgqsknze.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/spc/UWF9f8Omk3Fbkra8PZoRglXJNVyqVxKygQiOKF2bOxOlGSY/vprv/1/playlist_type/DVR/mh/JN/mm/44/mn/sn-vgqsknze/ms/lva/mv/u/mvi/5/pl/18/dover/11/pacing/0/keepalive/yes/fexp/24007246/mt/1707469685/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AJfQdSswRgIhANap5EgbZqHAMdEsuFZfz4CT3LxxR-OwUxx4JIJho6C0AiEA_I3Jfh3BOoSh9j6nofjtIWeFPWXLadMycLf6HhLxU9w%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AAO5W4owRQIgXGwHBINAmr-7O_9a_Q3uXi7GOJjySMmsKGhyWspjbqwCIQC6vsMEHkXDn9afalKlRvc4uqtMS9wAcgUEOqSEhOo5Lg%3D%3D/playlist/index.m3u8
 https://raw.githubusercontent.com/MassinDV/videos/main/kids/samiarabic.m3u8
