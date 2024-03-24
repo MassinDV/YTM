@@ -1,6 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1711250225/ei/0Ub_ZcygLZmfsfIPs6CPoAY/ip/20.171.46.100/id/Ih2C4PJk4AU.2/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hdlc/1/hls_chunk_host/rr4---sn-ib.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/mh/sy/mm/44/mn/sn-ib/ms/lva/mv/u/mvi/4/pl/22/dover/11/pacing/0/keepalive/yes/mt/1711228303/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,vprv,playlist_type/sig/AJfQdSswRAIgTMFslBIm6JFPC5K-iV7P5dcgF9kNcQY-ulbXrm4D0poCIEc_DLWNKwl8Q3Pf2J_NYPZIu8A1IZ4k-10yyjbNofEa/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/ALClDIEwRAIgfaxbcSjf8IL3PbmxcP_rneYspyWT2nJHXmgfpAa8MlICIAj2ZNC89jlGA6R82n2od_AKYcfh2s_J1pDYn6k0zsjD/playlist/index.m3u8
+
 #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
 https://raw.githubusercontent.com/MassinDV/videos/main/kids/nickelodeonbahasa.m3u8
