@@ -1,6 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1711437138/ei/8iACZqF_6azb-A-fy5d4/ip/172.183.54.156/id/TgSBpZ32YK4.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hdlc/1/hls_chunk_host/rr4---sn-vgqsrns6.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/gcr/us/spc/UWF9f7jKRd0us7G2Cog6zUuIW2UE0EUqsFLT-4LzyKxfiNA/vprv/1/playlist_type/DVR/mh/ZA/mm/44/mn/sn-vgqsrns6/ms/lva/mv/u/mvi/4/pl/15/dover/11/pacing/0/keepalive/yes/fexp/51141541/mt/1711414940/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,gcr,spc,vprv,playlist_type/sig/AJfQdSswRQIhALqS29iCXwS-Cn0hDr5FbohM_z4j6wwkSX7laxB8rhlfAiBg1xFUQh8se-aQDjrywxZ0GmVy7Q8iqlWjBZgylNwIyg%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/ALClDIEwRgIhAMLdcZUDSjdjH90DoslDTjU_q-i7lvrTzLIQLT1kRvWnAiEA3vUgbYsTIHjFn9oajyH_5iqI1OsLReW04yTOMjfMzw8%3D/playlist/index.m3u8
+
 #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
 https://raw.githubusercontent.com/MassinDV/videos/main/kids/cartoonnetwork.m3u8
