@@ -1,5 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
-
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1711509361/ei/ETsDZuL6EN6H_9EPm86yoA4/ip/52.167.157.69/id/NHo60JALOMQ.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hdlc/1/hls_chunk_host/rr3---sn-vgqsknze.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/mh/Zw/mm/44/mn/sn-vgqsknze/ms/lva/mv/u/mvi/3/pl/21/dover/11/pacing/0/keepalive/yes/fexp/51141541/mt/1711487313/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,vprv,playlist_type/sig/AJfQdSswRgIhANcF8tkS-DWzwJpDa6LB27i0gJO0uQ18rwCRAfxH2iFhAiEAjTjz26NxwHC-cPvjX6Xeb_jIhd0OzIZPR6KIqeoKJlM%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/ALClDIEwRQIhAP7apJtcFNX_NcfszV5VcdYddiHZ0Gi1GG3NB4tIDCnaAiA9lNmKkJ9tty4lPtk0f2PeIJfaSUce3Qr56qsrp0UCcQ%3D%3D/playlist/index.m3u8
 https://raw.githubusercontent.com/MassinDV/videos/main/morocco/ma-snrt-news.m3u8
