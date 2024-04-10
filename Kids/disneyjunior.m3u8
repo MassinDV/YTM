@@ -1,6 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
-
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1712795152/ei/sNkWZs_5JM-8sfIPwvmt0Ac/ip/20.172.5.82/id/7y3f715dJDI.1/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/rqh/1/hdlc/1/hls_chunk_host/rr3---sn-a5meknzk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/gcr/us/spc/UWF9f0PuPVFAGeD4Zl_phvpLFNXgOew01b-t/vprv/1/playlist_type/DVR/mh/Lj/mm/44/mn/sn-a5meknzk/ms/lva/mv/u/mvi/3/pl/24/dover/11/pacing/0/keepalive/yes/mt/1712773422/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,gcr,spc,vprv,playlist_type/sig/AJfQdSswRgIhAI9BXs0oXy1aaBTpIm2Plzni_rQpOP8oqL5bxgkcVtusAiEAquRLJTlGbojBoHKBfu0PC0xGK8DjvvQdQ3_3qs5ktsc%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/ALClDIEwRQIhAJeEr54lpkPlb5oDo-6qW_E0mntfFWZPKGa4ITiLvd60AiBhB4z-cOWcnAZTWVFuDyZNoi2AyvL69spCS1d2XT0Cow%3D%3D/playlist/index.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
 https://raw.githubusercontent.com/MassinDV/videos/main/kids/disneyjunior.m3u8
