@@ -1,5 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
-
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1714058416/ei/UCAqZtGJEp6akucP3rqNwAs/ip/20.57.14.19/id/KaqgPh_6uLA.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hdlc/1/hls_chunk_host/rr4---sn-4o.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/spc/UWF9f658On72z6SHNd2wsfSa2IPyajeySzYh/vprv/1/playlist_type/DVR/mh/qc/mm/44/mn/sn-4o/ms/lva/mv/u/mvi/4/pl/16/dover/11/pacing/0/keepalive/yes/mt/1714036147/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AJfQdSswRgIhAOo7VCeeSRV56QrDR9W0xrnecxRuPYEoPcOkdqzY24xEAiEAkwdbi-OaPWYpktTgHIzQ2p1CkZ5O0-UJTIta8IDij4A%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AHWaYeowRQIhAIIdn3vsLO_ltGw9424Kb-iOwbPhzQl8ssCKow0WDCsrAiATHfztSVtfNKlt9YBuLpfgXIuDfDo0jGfraaV7jOTEHg%3D%3D/playlist/index.m3u8
 https://raw.githubusercontent.com/MassinDV/videos/main/kids/tootytv.m3u8
