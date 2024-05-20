@@ -1,4 +1,4 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1716230418/ei/skRLZqCUBO3WsfIP7qKogAk/ip/13.91.68.212/id/EIR9iL19NmE.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hdlc/1/hls_chunk_host/rr5---sn-o097znze.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/mh/Av/mm/44/mn/sn-o097znze/ms/lva/mv/u/mvi/5/pl/18/dover/11/pacing/0/keepalive/yes/mt/1716208293/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,vprv,playlist_type/sig/AJfQdSswRQIgd0Wd8qBhamAUAaaPZeJNoSjvWAJaH9QFd9oTTJvzVfACIQCdZ157GxT5eKsBCC8kZoLyA12cneyk92i0LB7PT-y_mw%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AHWaYeowRQIhAO4OJgLpdWb9c-7G8eaGAgHKxbhE9dq3bUehocECtw1sAiAp60flIUv0z8p-0oO2kyIASVdQuPBKx9lT3-rh-LfXiw%3D%3D/playlist/index.m3u8
+
