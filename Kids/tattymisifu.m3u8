@@ -1,5 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
-
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1718044667/ei/m_NmZqRQ-rWS5w_A3IuQBQ/ip/20.55.14.146/id/VtpzM3S4oLw.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hdlc/1/hls_chunk_host/rr4---sn-p5qlsndk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/spc/UWF9f56yQ98jJ6Yvm4ERwbQhrhMJ021VlG6b2QPJZMlZaMR0iJty2XdCYJV_sjE/vprv/1/playlist_type/DVR/mh/kg/mm/44/mn/sn-p5qlsndk/ms/lva/mv/u/mvi/4/pl/16/dover/11/pacing/0/keepalive/yes/mt/1718021669/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AJfQdSswRQIhAP8aE6SuWa3oGE7frX1slaCeInYJ3DU8xEtRVX9dpJc5AiB9zpJ2TdlzC-8Tc4sTNzigNSy-QXemZq-_LC3kk5JUKw%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AHlkHjAwRQIgLa9hP0D_y4UqMFtvQOcWBcAx1Xc94y_iZRYKzQoU7SUCIQDOSxHnmftCL0tv_LKUG8NJNlyMWIo_bYSDw1UClJ1I6w%3D%3D/playlist/index.m3u8
 https://raw.githubusercontent.com/MassinDV/videos/main/kids/tattymisifu.m3u8
