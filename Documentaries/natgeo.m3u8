@@ -1,5 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=3689000,CODECS="avc1.100.31,mp4a.40.2",RESOLUTION=1920x1080
-
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1721488681/ei/yYCbZpTjH8KzkucPg5SM8Ao/ip/20.75.95.208/id/rqWJkyLuMyc.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hdlc/1/hls_chunk_host/rr5---sn-p5qlsnrr.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/gcr/us/spc/NO7bARpkrirai0LR5zHfgNJVU7hWRDKY_NucBLlxeiCBLtAGshxf9Rt_Oc3J2cU/vprv/1/playlist_type/DVR/initcwndbps/1735000/mh/tW/mm/44/mn/sn-p5qlsnrr/ms/lva/mv/m/mvi/5/pl/16/dover/11/pacing/0/keepalive/yes/mt/1721466747/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,gcr,spc,vprv,playlist_type/sig/AJfQdSswRgIhAJbRUsF6ka0PMASyvMhM6F6Hf_x_tU0yqQtXeoas2RbYAiEAg0K1vL0ZtM40D0jSJcUbgiI6AE1BQTa6N1F66ZQmS7A%3D/lsparams/hls_chunk_host,initcwndbps,mh,mm,mn,ms,mv,mvi,pl/lsig/AHlkHjAwRQIhAKaHlCf30ghQQUHeJwZ-aOhDuYbGg2RNsZNrxA0steo7AiBVqNlBv9ncwlo5vG2M_Z_zldUaSBNHxFkXnTnTWyXzTw%3D%3D/playlist/index.m3u8
 https://raw.githubusercontent.com/MassinDV/videos/main/doc/national-geographic.m3u8
